@@ -1,4 +1,8 @@
-import Data.List
-import System.IO
+ module Main where
+ import System.Environment
 
-bigFloat = 3.0000002 + 1.203909
+ main :: IO ()
+ main = do
+     (args1:args2) <- getArgs
+     args1 + args2 = theSum
+     putStrLn ("Hello, " ++ args1 ++ " " ++ args2 !! 0 )
